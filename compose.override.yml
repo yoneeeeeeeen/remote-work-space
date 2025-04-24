@@ -1,9 +1,9 @@
 services:
-  db:
-    environment:
-      MARIADB_ALLOW_EMPTY_ROOT_PASSWORD: 1
-    ports:
-      - "3306:3306"
+  # db:
+  #   environment:
+  #     MARIADB_ALLOW_EMPTY_ROOT_PASSWORD: 1
+  #   ports:
+  #     - "3306:3306"
 
   web:
     build:

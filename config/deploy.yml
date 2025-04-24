@@ -1,5 +1,5 @@
 # Name of your application. Used to uniquely configure containers.
-service: tasket_web
+service: tasket_web_aws
 
 # Name of the container image.
 image: your-user/tasket_web
